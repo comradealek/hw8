@@ -15,6 +15,9 @@ export default function Home() {
         <GitHub />
         <hr />
       </div>
+      <div style={{margin: "auto", width: "fit-content"}}>
+        <p>The store is <a href="http://csci331vm.cs.montana.edu:3046/store">here</a></p>
+      </div>
     </main>
   );
 }

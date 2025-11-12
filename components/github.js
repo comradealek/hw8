@@ -4,8 +4,8 @@ import React, { useState } from "react"
 const GitHub = () => {
   const [hidden, setHidden] = useState(true);
   const handleClick = () => {
-    window.open("https://github.com/comradealek/hw8", "", "width=800, height=600, resizable=false", false);
-    setHidden(!hidden);
+    if (hidden) window.open("https://github.com/comradealek/hw8", "", "width=800, height=600, resizable=false", false);
+    setHidden(false);
   }
 
   return (
